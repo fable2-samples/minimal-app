@@ -6,6 +6,10 @@ If you want to see a Fable app including elmish, check [minimal-elmish](https://
 
 More sample apps can be found in [fable2-samples](https://github.com/fable2-samples)
 
+## Status
+
+_WIP: Under development_ Does not work yet. Patience! (or help out)
+
 ## Requirements
 
 - [dotnet SDK](https://www.microsoft.com/net/download/core) 2.1 or higher
