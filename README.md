@@ -8,7 +8,7 @@ More sample apps can be found in [fable2-samples](https://github.com/fable2-samp
 
 ## Status
 
-_WIP: Under development_ Does not work yet. Patience! (or help out)
+_WIP: Under development_
 
 ## Requirements
 

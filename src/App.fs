@@ -1,35 +1,22 @@
 module App
 
-(**
- The famous Increment/Decrement ported from Elm.
-*)
+open Fable.Core
 
 // MODEL
 
 type Model = int
 
-type Msg =
-| Increment
-| Decrement
+// INITIAL STATE
 
 let init() : Model = 0
 
-// UPDATE
+// STATE
 
-let update (msg:Msg) (model:Model) =
-    match msg with
-    | Increment -> model + 1
-    | Decrement -> model - 1
+let counter = init()
 
-// VIEW (rendered as you decide)
+// UPDATE: TODO
 
-let view (model:Model) dispatch =
-  div []
-      [ button [ OnClick (fun _ -> dispatch Increment) ] [ str "+" ]
-        div [] [ str (string model) ]
-        button [ OnClick (fun _ -> dispatch Decrement) ] [ str "-" ] ]
+// DISPLAY STATE
+printfn "Hello World: %i" counter
 
-// App
-Program.mkSimple init update view
-|> Program.withConsoleTrace
-|> Program.run
+// SEE RESULT IN BROWSER CONSOLE
