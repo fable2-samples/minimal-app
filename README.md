@@ -1,14 +1,10 @@
-# Fable 2.1 Mini App - WIP
+# Fable 2.1 Mini App
 
 This is a simple Fable 2.1 app "hello world" app. It does not include Elmish (or React).
 
-If you want to see a Fable app including elmish, check [minimal-elmish](https://github.com/fable2-samples/minimal-elmish).
+If you want to see a Fable app including elmish, check [minimal-elmish-react](https://github.com/fable2-samples/minimal-elmish-react).
 
 More sample apps can be found in [fable2-samples](https://github.com/fable2-samples)
-
-## Status
-
-_WIP: Under development_
 
 ## Requirements
 
